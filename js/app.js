@@ -16,7 +16,7 @@ for (const btn of allBtn) {
         const firstCountCard = getConvertedValue('card');
         const leftCountCheck = getConvertedValue('left');
         
-        if (firstCountCard + 1 > 2 || leftCountCheck - 1 < 0) {
+        if (firstCountCard + 1 > 4 || leftCountCheck - 1 < 0) {
             alert('Limit exceeded: Only 4 seats allowed.');
             return;
         }
